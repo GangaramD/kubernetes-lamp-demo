@@ -3,7 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: kubernetes-lamp-demo-web
-  namespace: alltiersolutions
+  namespace: gangaram
   labels:
     app: kubernetes-lamp-demo
 spec:
@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-lamp-demo-web
-        image: hub.docker.com/alltiersolutions/kubernetes-lamp-demo-web:$GIT_SHORT_COMMIT
+        image: hub.docker.com/gangaram/kubernetes-lamp-demo-web:latest
         env:
         - name: MYSQL_DATABASE
           value: lampdemo
