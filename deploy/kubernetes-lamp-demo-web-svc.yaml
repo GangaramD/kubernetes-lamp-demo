@@ -3,7 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: kubernetes-lamp-demo-web-svc
-  namespace: alltiersolutions
+  namespace: gangaram
 spec:
   type: NodePort
   ports:
