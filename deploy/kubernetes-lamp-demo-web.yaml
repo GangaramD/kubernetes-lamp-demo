@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-lamp-demo-web
-        image: hub.docker.com/gangaram/kubernetes-lamp-demo-web:latest
+        image: hub.docker.com/gangaram/lampfrontend:1.1
         env:
         - name: MYSQL_DATABASE
           value: lampdemo
