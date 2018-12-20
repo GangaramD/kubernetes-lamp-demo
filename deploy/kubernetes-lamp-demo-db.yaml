@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: kubernetes-lamp-demo-db
-        image: hub.docker.com/alltiersolutions/kubernetes-lamp-demo-db:latest
+        image: hub.docker.com/gangaram/lampbackend:1.1
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
